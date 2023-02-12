@@ -18,14 +18,15 @@ public class PrimeiroPrograma {
         // CTRL + D duplica uma linha
     }
 }
+
 class Livro {
     private String nome;
     private Integer numPaginas;
 
-        public Livro(String nome, Integer numPaginas) {
-            this.nome = nome;
-            this.numPaginas = numPaginas;
-        }
+    public Livro(String nome, Integer numPaginas) {
+        this.nome = nome;
+        this.numPaginas = numPaginas;
+    }
 
     public String getNome() {
         return nome;
